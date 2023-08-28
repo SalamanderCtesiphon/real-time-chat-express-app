@@ -9,6 +9,8 @@
   "author": "seamusQuixote",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "mongodb": "^5.8.1",
+    "mongoose": "^7.4.5"
   }
 }
