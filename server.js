@@ -10,3 +10,8 @@ const server = app.listen(3000, () => {
 });
 
 app.use(express.static(__dirname));
+
+
+var Message = mongoose.model(‘Message’,{ name : String, message : String})
+
+mongoose.connect(dbUrl);
